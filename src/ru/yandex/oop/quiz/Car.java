@@ -1,6 +1,5 @@
 package ru.yandex.oop.quiz;
 
-/*
 public class Car {
 
     public void turnSteeringWheel(double degree) {
@@ -10,13 +9,11 @@ public class Car {
         //...
     }
 
-    ??? void turnWheels(double degree) {
+    private void turnWheels(double degree) {
         // ...
     }
 
     // ...
 }
-
- */
 
 

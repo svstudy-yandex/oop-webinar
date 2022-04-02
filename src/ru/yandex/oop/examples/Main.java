@@ -20,7 +20,7 @@ public class Main {
         String doubleString = d.toString();
 
         // Дженерики, полиморфизм
-        Map<Integer, String> map = new HashMap<>();
+        Map<Integer, String> map = new HashMap<Integer, String>();
         Set<Integer> set = new HashSet<>();
     }
 }
