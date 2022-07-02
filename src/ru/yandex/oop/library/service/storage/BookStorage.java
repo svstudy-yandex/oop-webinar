@@ -5,6 +5,7 @@ import ru.yandex.oop.library.model.Book;
 public class BookStorage extends BaseStorage<Book> {
     @Override
     public void save(Book item) {
+        super.save(item);
         // ...
     }
 

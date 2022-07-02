@@ -5,6 +5,7 @@ import ru.yandex.oop.library.model.User;
 public class UserStorage extends BaseStorage<User> {
     @Override
     public void save(User item) {
+        super.save(item);
         // ..
     }
 

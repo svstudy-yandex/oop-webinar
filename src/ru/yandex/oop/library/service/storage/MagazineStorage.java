@@ -7,6 +7,7 @@ public class MagazineStorage extends BaseStorage<Magazine> {
 
     @Override
     public void save(Magazine item) {
+        super.save(item);
         // ...
     }
 

@@ -5,6 +5,7 @@ import ru.yandex.oop.library.model.Author;
 public class AuthorStorage extends BaseStorage<Author> {
     @Override
     public void save(Author item) {
+        super.save(item);
         // ...
     }
 

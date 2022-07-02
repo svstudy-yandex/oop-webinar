@@ -1,10 +1,5 @@
 package ru.yandex.oop.examples;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 public class Main {
     public static void main(String[] args) {
         // Наследование
@@ -13,14 +8,7 @@ public class Main {
         Number n = i;
         n = d;
 
-        // Инкапсуляция, перегрузка
+        // Инкапсуляция
         System.out.println("Hello world!");
-
-        // Переопределение
-        String doubleString = d.toString();
-
-        // Дженерики, полиморфизм
-        Map<Integer, String> map = new HashMap<>();
-        Set<Integer> set = new HashSet<>();
     }
 }
